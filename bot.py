@@ -37,11 +37,11 @@ Hit help button to find out more about how to use me</b>""",
                                 [
                                 [
                                         InlineKeyboardButton('🆘 Help', callback_data="help"),
-                                        InlineKeyboardButton('👥 Support', url='https://telegram.me/TeleRoid14')
+                                        InlineKeyboardButton('👥 Support', url='https://telegram.me/xo_support')
                                     ],[
-                                        InlineKeyboardButton('👮 Owner', url='https://t.me/ThTeleRoid'),
-                                        InlineKeyboardButton('🤖 BotsList', url='https://t.me/joinchat/t1ko_FOJxhFiOThl'),
-                                        InlineKeyboardButton('Channel 📢', url='https://t.me/TeleRoidGroup')
+                                        InlineKeyboardButton('👮 Owner', url='https://t.me/xo_code'),
+                                        InlineKeyboardButton('🤖 BotsList', url='https://t.me/xo_botz'),
+                                        InlineKeyboardButton('Channel 📢', url='https://t.me/xo_botz')
                                     ],[
                                         InlineKeyboardButton('⭕ Source-GitHub ⭕', url='https://github.com/PredatorHackerzZ/TG-YouTube-Uploader'),
                                     ]]
@@ -66,9 +66,9 @@ Just send a Youtube url to download it in video or audio format!
                                         InlineKeyboardButton(
                                             "👥 About ", callback_data="about"),
                                   ],[
-                                        InlineKeyboardButton("👮 Owner", url="https://t.me/TheTeleRoid"),
-                                        InlineKeyboardButton("🤖 Bot List", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"),
-                                        InlineKeyboardButton('Channel 📢', url="https://t.me/TeleRoidGroup")
+                                        InlineKeyboardButton("👮 Owner", url="https://t.me/xo_code"),
+                                        InlineKeyboardButton("🤖 Bot List", url="https://t.me/xo_botz"),
+                                        InlineKeyboardButton('Channel 📢', url="https://t.me/xo_support")
                                     ],[
                                         InlineKeyboardButton("⭕Source Code -GitHub⭕", url="https://github.com/PredatorHackerzZ/TG-YouTube-Uploader"),
                                     ]]
@@ -83,11 +83,11 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About TeleRoid YouTube Bot!</b>
 
-<b>👨‍💻 Developer:</b> <a href="https://t.me/PredatorHackerzZ_bot">Predator 🇮🇳</a>
+<b>👨‍💻 Developer:</b> <a href="https://t.me/xo_code">Predator 🇮🇳</a>
 
-<b>💁‍♂️ Support:</b> <a href="https://t.me/TeleRoid14">TeleRoid Support</a>
+<b>💁‍♂️ Support:</b> <a href="https://t.me/xo_support">TeleRoid Support</a>
 
-<b>😇 Channel :</b> <a href="https://t.me/TeleRoidGroup">TeleRoid Updates </a>
+<b>😇 Channel :</b> <a href="https://t.me/xo_botz">TeleRoid Updates </a>
 
 <b>📚 Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
@@ -99,7 +99,7 @@ async def about(client, message):
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⭕ Join Our Channel ⭕", url="https://t.me/TeleRoidGroup"),
+                                            "⭕ Join Our Channel ⭕", url="https://t.me/xo_botz"),
                                       
                                     ]]
                             ),        
@@ -328,7 +328,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join **@TGRobot_List**
+Join **@xo_botz**
 """
 )
 
